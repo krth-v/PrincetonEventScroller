@@ -1,177 +1,1461 @@
 [
   {
-    "id": "event_1732320000_0",
-    "name": "ACM Workshop: Intro to Machine Learning",
-    "location": "Friend Center 101",
-    "datetime": "November 25, 2024 at 6:00 PM",
-    "host_organization": "Princeton ACM",
-    "rsvp_list": [
-      "John Smith",
-      "Sarah Johnson",
-      "Michael Chen",
-      "Emily Davis",
-      "James Wilson"
-    ],
+    "id": "event_1965410",
+    "name": "PES Fall 2025 Build Cycle",
+    "location": "",
+    "datetime": "Wed, Sep 3, 2025 1:00 AM – Wed, Dec 31, 2025 11:00 PM",
+    "host_organization": "Princeton Electric Speedboating",
     "tags": [
-      "Technology",
-      "Workshop",
-      "Machine Learning",
-      "Computer Science"
+      "Meeting"
     ],
-    "cover_image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800",
-    "description": "Join us for an introductory workshop on machine learning fundamentals. We'll cover basic concepts, algorithms, and hands-on coding exercises using Python and scikit-learn. Perfect for beginners!"
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4588033_MAE04262JPG_914173955.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
   },
   {
-    "id": "event_1732406400_1",
-    "name": "Fall Cultural Festival",
-    "location": "Frist Campus Center",
-    "datetime": "November 26, 2024 at 7:30 PM",
-    "host_organization": "International Student Association",
-    "rsvp_list": [
-      "Maria Garcia",
-      "Ahmed Hassan",
-      "Li Wei",
-      "Sophie Martin",
-      "Raj Patel",
-      "Anna Kowalski",
-      "Carlos Rodriguez"
-    ],
+    "id": "event_1964891",
+    "name": "Meaningful Conversations",
+    "location": "",
+    "datetime": "Thu, Sep 11, 2025 6:00 PM – Thu, Dec 11, 2025 7:00 PM",
+    "host_organization": "Princeton University Baha'i Club",
     "tags": [
-      "Cultural",
-      "Social",
-      "Food",
-      "Performance"
+      "Student Organization Event",
+      "Diversity & Inclusion",
+      "Global/Intercultural"
     ],
-    "cover_image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800",
-    "description": "Celebrate diversity with performances, food from around the world, and cultural exhibitions. All students welcome to experience the rich tapestry of Princeton's international community."
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
   },
   {
-    "id": "event_1732492800_2",
-    "name": "Career Fair: Tech Industry",
-    "location": "Jadwin Gymnasium",
-    "datetime": "November 27, 2024 at 2:00 PM",
-    "host_organization": "Career Services",
-    "rsvp_list": [
-      "Alex Johnson",
-      "Jessica Lee",
-      "David Kim"
-    ],
+    "id": "event_1967457",
+    "name": "Princeton Debate Panel World Championship Contingent Spars",
+    "location": "",
+    "datetime": "Wed, Oct 8, 2025 10:00 PM – Wed, Dec 17, 2025 11:30 PM",
+    "host_organization": "Debate Panel",
     "tags": [
-      "Career",
-      "Technology",
-      "Networking",
-      "Recruiting"
+      "Meeting"
     ],
-    "cover_image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
-    "description": "Meet with recruiters from top tech companies including Google, Microsoft, Amazon, and innovative startups. Bring your resume and be ready to network!"
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
   },
   {
-    "id": "event_1732579200_3",
-    "name": "Thanksgiving Dinner",
-    "location": "Rockefeller College",
-    "datetime": "November 28, 2024 at 6:00 PM",
-    "host_organization": "Residential College Council",
-    "rsvp_list": [
-      "Tom Anderson",
-      "Jennifer Brown",
-      "Kevin O'Brien",
-      "Lisa Martinez",
-      "Robert Taylor",
-      "Michelle Wong",
-      "Daniel Murphy",
-      "Rachel Green",
-      "Christopher Hall",
-      "Amanda White"
-    ],
+    "id": "event_1966307",
+    "name": "Princeton Mock Trial Fall Seminar",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 7 AM – 9 PM",
+    "host_organization": "Mock Trial",
     "tags": [
-      "Social",
-      "Food",
-      "Holiday",
-      "Community"
+      "Student Organization Event"
     ],
-    "cover_image": "https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?w=800",
-    "description": "Traditional Thanksgiving feast for students staying on campus. Turkey, stuffing, pumpkin pie, and all the fixings! A great opportunity to celebrate with the Princeton community."
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2269118_PMT_Banner_11811355.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
   },
   {
-    "id": "event_1732752000_4",
-    "name": "Entrepreneurship Panel Discussion",
-    "location": "McCosh Hall 50",
-    "datetime": "November 30, 2024 at 4:30 PM",
-    "host_organization": "Princeton Entrepreneurship Club",
-    "rsvp_list": [
-      "Brian Park",
-      "Nicole Thompson"
-    ],
+    "id": "event_1967260",
+    "name": "Princeton University Mathematics Competition (PUMaC)",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 7 AM – 9 PM",
+    "host_organization": "Mathematics Club",
     "tags": [
-      "Entrepreneurship",
-      "Business",
-      "Panel",
-      "Startups"
+      "Student Organization Event"
     ],
-    "cover_image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800",
-    "description": "Hear from successful Princeton alumni entrepreneurs about their startup journeys, lessons learned, and advice for aspiring founders. Q&A session to follow."
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
   },
   {
-    "id": "event_1732838400_5",
-    "name": "Study Break: Finals Prep",
-    "location": "Firestone Library Plaza",
-    "datetime": "December 1, 2024 at 9:00 PM",
-    "host_organization": "Student Government",
-    "rsvp_list": [
-      "Emma Watson",
-      "Oliver Smith",
-      "Sophia Lee",
-      "William Jones",
-      "Isabella Garcia"
-    ],
+    "id": "event_1968333",
+    "name": "PAX Unplugged Board Games Convention",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 9 AM – 8 PM",
+    "host_organization": "Simulation Games Union",
     "tags": [
-      "Academic",
-      "Social",
-      "Study",
-      "Wellness"
+      "Trip"
     ],
-    "cover_image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800",
-    "description": "Take a break from studying with free coffee, snacks, and stress-relief activities. Therapy dogs, meditation corner, and good vibes as we head into finals season."
+    "cover_image": "https://my.princeton.edu/upload/princeton/2022/r2_image_upload_1782401_shanescarbroughJYVfB0_gRWounsplashjpg_104164053.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
   },
   {
-    "id": "event_1732924800_6",
-    "name": "Guest Lecture: Climate Change Policy",
-    "location": "Robertson Hall",
-    "datetime": "December 2, 2024 at 3:00 PM",
-    "host_organization": "School of Public and International Affairs",
-    "rsvp_list": [
-      "Grace Mitchell"
-    ],
+    "id": "event_1969369",
+    "name": "Princeton Quantitative Traders Trading Competition",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 11 AM – 7 PM",
+    "host_organization": "Princeton Quantitative Traders",
     "tags": [
-      "Academic",
-      "Lecture",
-      "Environment",
-      "Policy"
+      "Student Organization Event"
     ],
-    "cover_image": "https://images.unsplash.com/photo-1569163139394-de4798aa62b0?w=800",
-    "description": "Distinguished environmental policy expert discusses the latest developments in international climate agreements and their implications for global sustainability."
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
   },
   {
-    "id": "event_1733011200_7",
-    "name": "Winter Concert Series Kickoff",
-    "location": "Richardson Auditorium",
-    "datetime": "December 3, 2024 at 8:00 PM",
-    "host_organization": "Princeton University Orchestra",
-    "rsvp_list": [
-      "Henry Cooper",
-      "Charlotte Anderson",
-      "Lucas Martinez",
-      "Amelia Davis",
-      "Benjamin Wilson",
-      "Mia Thompson"
-    ],
+    "id": "event_1967621",
+    "name": "Exploring New Jersey's Best Places: Cheesequake & Cheesecake",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 12:30 PM – 8 PM",
+    "host_organization": "Outdoor Action",
     "tags": [
-      "Music",
-      "Performance",
+      "Trip",
+      "Wellness & Community",
+      "Self-care",
+      "Skill-Building",
+      "Personal Well-being & Effectiveness",
+      "Outdoors"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_3993627_Cheesequake_101715212.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966989",
+    "name": "E-Club: BlockWarriors (Forge) Weekly Meetings",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 1 PM – 3 PM",
+    "host_organization": "E-Club: Forge",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967909",
+    "name": "Movie night II",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 2 PM – 5 PM",
+    "host_organization": "Association of Chinese Students and Scholars at Princeton University",
+    "tags": [
+      "Film Screening"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2277108_croppedIMG_3878jpg_12713612.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966360",
+    "name": "Sophomore Small Group",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 3:30 PM – 4:30 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1960850",
+    "name": "Large Group",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 4 PM – 10 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964813",
+    "name": "Fall 2025 Trading Tournament Afterparty",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 6 PM – 9 PM",
+    "host_organization": "Princeton Quantitative Traders",
+    "tags": [
+      "Evening Event",
+      "Engineering"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1959520",
+    "name": "Weekly AMPU Meeting",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 6:30 PM – 11:30 PM",
+    "host_organization": "Anime-Manga Princeton",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4588433_AMPUjpg_4192239.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964216",
+    "name": "Magic The Gathering Club Meeting",
+    "location": "",
+    "datetime": "Sat, Nov 22, 2025 7 PM – 11 PM",
+    "host_organization": "Magic: The Gathering",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1954165",
+    "name": "Grad Yoga Sunday Session",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 10:10 AM – 12:20 PM",
+    "host_organization": "Grad Yoga at Princeton",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2023/r2_image_upload_2278908_IMG_0657_731224924.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966532",
+    "name": "Taiwanese Language Table",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 11 AM – 12 PM",
+    "host_organization": "Taiwanese American Students Association",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2022/r2_image_upload_2771078_TASA_Banner_4914587.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967256",
+    "name": "Thanks a Brunch!",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 11 AM – 12:30 PM",
+    "host_organization": "The Graduate School",
+    "tags": [
+      "Special Event",
+      "Self-care",
+      "Writing"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4603441_ThanksABrunch_106233744.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968187",
+    "name": "Princeton Best Buddies Field Day",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 11 AM – 2 PM",
+    "host_organization": "Best Buddies Princeton Chapter",
+    "tags": [
+      "Recreation"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2023/r2_image_upload_2268557_BBGroup_3122646.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967603",
+    "name": "Bizarre Bagel Brunch",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 11:30 AM – 12:30 PM",
+    "host_organization": "The Graduate School",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_2266135_Bizarre_Bagel_Brunch_101623535.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1969219",
+    "name": "Plainsboro Preserve - Lakeside Hike",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 12 PM – 3 PM",
+    "host_organization": "Outdoor Action",
+    "tags": [
+      "Trip",
+      "Wellness & Community",
+      "Outdoors"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2276639_CampusGroups_Header_Image_212195.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1962646",
+    "name": "PSE Rehersal",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 1:30 PM – 3 PM",
+    "host_organization": "Princeton Saxophone Ensemble",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966274",
+    "name": "PBSG Sunday BiWeekly Meditations",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 2 PM – 3 PM",
+    "host_organization": "Princeton Buddhist Student Group",
+    "tags": [
+      "Religious Service"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966623",
+    "name": "PUGE Rehearsal",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 3 PM – 4:30 PM",
+    "host_organization": "Gospel Ensemble",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2024/r2_image_upload_2770520_Screen_Shot_20240911_at_124533_PM_118184634.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966470",
+    "name": "ACM NLP Reading Group",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 4 PM – 5 PM",
+    "host_organization": "ACM Group, Princeton",
+    "tags": [
+      "Seminar"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2277180_code0jpg_11319754.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968331",
+    "name": "Dining Hall Thank-a-Thon!",
+    "location": "",
+    "datetime": "Sun, Nov 23, 2025 4 PM – 6 PM",
+    "host_organization": "Acts of Kindess Initiative",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_3993890_Google_Chrome_2025112025_at_115824jpg_1121218.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968570",
+    "name": "Empowering Every Learner: Support for Unique Learning Styles: Mondays 10am-12pm",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 10 AM – 12 PM",
+    "host_organization": "Office of Disability Services",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4590722_ODSLogoRGBsm_116164643.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1961848",
+    "name": "Office Hours for Humanities and Social Sciences Graduate Students (In Person)",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 11 AM – 12 PM",
+    "host_organization": "GradFUTURES",
+    "tags": [
+      "Office Hours",
+      "Careers & Professional Development",
+      "Career Management",
+      "Humanities",
+      "Social Sciences"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4586645_r3_image_upload_4586645_MyPrincetonU_Banner_3_43105555_626152150.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1954319",
+    "name": "Christian Union Nova 12:1 Prayer",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 12 PM – 1 PM",
+    "host_organization": "Christian Union Nova",
+    "tags": [
+      "Student Organization Event",
+      "Wellness & Community",
+      "Self-care",
+      "Personal Well-being & Effectiveness"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2023/r2_image_upload_2262090_121_Logo_9593649.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967858",
+    "name": "Optica November Journal Club",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 12 PM – 1 PM",
+    "host_organization": "Princeton University OPTICA Chapter",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968599",
+    "name": "CLDC Lunch & Learn: Disability Etiquette in the Workplace",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 12 PM – 1:15 PM",
+    "host_organization": "Office of the Vice President for Campus Life (VPCL)",
+    "tags": [
+      "Special Event",
+      "Careers & Professional Development",
+      "Diversity & Inclusion"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4262735_disability_ettiquette_115154717.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968924",
+    "name": "Arm in Arm Volunteering Day",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 2 PM – 3 PM",
+    "host_organization": "AS@P - Asian Staff @ Princeton",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4591057_processed25ABD99BFC4046F085DA35B858EA7D03_111094924.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968923",
+    "name": "Arm in Arm Volunteering Day",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 3 PM – 4 PM",
+    "host_organization": "AS@P - Asian Staff @ Princeton",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4591057_processed25ABD99BFC4046F085DA35B858EA7D03_109122854.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1965930",
+    "name": "Prayer Meeting",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 4:30 PM – 5:30 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968999",
+    "name": "OA Climbing Wall Open Hours (Monday)",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 4:30 PM – 6:30 PM",
+    "host_organization": "Outdoor Action",
+    "tags": [
+      "Recreation",
+      "Wellness & Community",
+      "Other"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2022/r2_image_upload_2276639_Wall_logojpg_949611.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967385",
+    "name": "MSA Quran Study",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 5 PM – 6 PM",
+    "host_organization": "Muslim Student Association",
+    "tags": [
+      "Learning Cohort"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966042",
+    "name": "PAVE General Meeting",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 5 PM – 6:30 PM",
+    "host_organization": "Autonomous Vehicle Engineering, Princeton",
+    "tags": [
+      "Student Organization Event",
+      "Engineering",
+      "STEM"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4587884_logo_without_words_bw_918214428.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966066",
+    "name": "Graduate Student Buddhist Association Practice Meeting",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 6 PM – 8 PM",
+    "host_organization": "Graduate Buddhist Student Organization",
+    "tags": [
+      "Religious Service"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1962588",
+    "name": "Intro to Tango",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 7 PM – 8:30 PM",
+    "host_organization": "Princeton Tango Club",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4598894_image00020JPG_817233658.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1962199",
+    "name": "Princeton SOA Film Club",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 7 PM – 10 PM",
+    "host_organization": "Princeton School of Architecture Film Club",
+    "tags": [
+      "Film Screening"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964789",
+    "name": "Monday Climbing Team Practice!",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 8 PM – 10 PM",
+    "host_organization": "Climbing",
+    "tags": [
+      "Sports Club Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2278630_IMG_1986JPG_116101242.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1962618",
+    "name": "Fundamentals of Tango Social Dancing",
+    "location": "",
+    "datetime": "Mon, Nov 24, 2025 8:30 PM – 10 PM",
+    "host_organization": "Princeton Tango Club",
+    "tags": [
+      "Student Organization Event",
       "Arts",
-      "Classical"
+      "Wellness & Community",
+      "Skill-Building"
     ],
-    "cover_image": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800",
-    "description": "The Princeton University Orchestra presents its winter concert featuring works by Beethoven, Tchaikovsky, and contemporary composers. Free admission for students."
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4598894_outdoormiloonga_milongerosjpg_817235943.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1954320",
+    "name": "Christian Union Nova 12:1 Prayer",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 12 PM – 1 PM",
+    "host_organization": "Christian Union Nova",
+    "tags": [
+      "Student Organization Event",
+      "Wellness & Community",
+      "Self-care",
+      "Personal Well-being & Effectiveness"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2023/r2_image_upload_2262090_121_Logo_9593649.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967463",
+    "name": "Princeton Debate Panel Team Lunch",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 12 PM – 1:15 PM",
+    "host_organization": "Debate Panel",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964776",
+    "name": "Guided tour: \"Forms and Function: The Splendors of Global Book Making\"",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 12:30 PM – 1 PM",
+    "host_organization": "Princeton University Library",
+    "tags": [
+      "Exhibition",
+      "Arts",
+      "#GradFUTURESforum",
+      "Undergraduate Research"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_3012376_GradFutures_campus_groups_logos_PUL1jpg_1015152547.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1969172",
+    "name": "OA+ Nature Treasure Hunt",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 3:30 PM – 4:30 PM",
+    "host_organization": "Outdoor Action",
+    "tags": [
+      "Recreation"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_3993627_Prospect_gardensjpg_1114151659.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1963633",
+    "name": "LLM (Large Language Model) Collective - November 2025 Zoom Hangout",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 4 PM – 5 PM",
+    "host_organization": "Research Computing",
+    "tags": [
+      "Meeting",
+      "Careers & Professional Development",
+      "Digital Technologies",
+      "Networking",
+      "Programming Languages",
+      "Research & Data Analysis",
+      "Teaching & Mentoring",
+      "Undergraduate Research"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4587461__32191424.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1965931",
+    "name": "Prayer Meeting",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 4:30 PM – 5:30 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964552",
+    "name": "Climbing Team Practice!",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 4:30 PM – 6:30 PM",
+    "host_organization": "Climbing",
+    "tags": [
+      "Sports Club Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_3993413_IMG_3842_9101169.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1961018",
+    "name": "PHS Hanuman Puja",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 5 PM – 6:30 PM",
+    "host_organization": "Princeton Hindu Satsangam",
+    "tags": [
+      "Religious Service"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964129",
+    "name": "PGRC Group Run",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 5 PM – 7 PM",
+    "host_organization": "Princeton Grad Running Club",
+    "tags": [
+      "Sports Club Event",
+      "Wellness & Community",
+      "Outdoors"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4589903_PGRCjpg_51872725.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966154",
+    "name": "PUEDO Project Teams Meeting",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 6 PM – 7:15 PM",
+    "host_organization": "Princeton University Economic Development Organization (PUEDO)",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1956414",
+    "name": "Rehearsal",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 7 PM – 9 PM",
+    "host_organization": "Band, Princeton University",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2266986_extended_BANDPLAID_11520838.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964447",
+    "name": "Princeton Graduate Improv Group Practice",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 7 PM – 9 PM",
+    "host_organization": "Graduate Improv Club",
+    "tags": [
+      "Student Organization Event",
+      "Arts"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_2924216_Reunionsjpg_9912480.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968603",
+    "name": "Weekly Salsa Practice",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 7 PM – 9 PM",
+    "host_organization": "Princeton Salsa Club",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966769",
+    "name": "PPE Study Break",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 8 PM – 9 PM",
+    "host_organization": "Pianists Ensemble, Princeton",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2276555_horizontal_picjpg_113233039.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967061",
+    "name": "Tiger Investments: Sophomore Education",
+    "location": "",
+    "datetime": "Tue, Nov 25, 2025 8:30 PM – 10 PM",
+    "host_organization": "Tiger Investments",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1954321",
+    "name": "Christian Union Nova 12:1 Prayer",
+    "location": "",
+    "datetime": "Wed, Nov 26, 2025 12 PM – 1 PM",
+    "host_organization": "Christian Union Nova",
+    "tags": [
+      "Student Organization Event",
+      "Wellness & Community",
+      "Self-care",
+      "Personal Well-being & Effectiveness"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2023/r2_image_upload_2262090_121_Logo_9593649.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1961768",
+    "name": "Office Hours for Humanities and Social Sciences Graduate Students (Virtual)",
+    "location": "",
+    "datetime": "Wed, Nov 26, 2025 1 PM – 2 PM",
+    "host_organization": "GradFUTURES",
+    "tags": [
+      "Office Hours",
+      "Careers & Professional Development",
+      "Career Management",
+      "Humanities",
+      "Social Sciences"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4586645_r3_image_upload_4586645_MyPrincetonU_Banner_3_43105555_62615943.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968576",
+    "name": "Empowering Every Learner: Support for Unique Learning Styles: Wednesdays 1-3pm",
+    "location": "",
+    "datetime": "Wed, Nov 26, 2025 1 PM – 3 PM",
+    "host_organization": "Office of Disability Services",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4590722_ODSLogoRGBsm_11616470.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1965932",
+    "name": "Prayer Meeting",
+    "location": "",
+    "datetime": "Wed, Nov 26, 2025 4:30 PM – 5:30 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964281",
+    "name": "YDSA Fall 2025 Weekly Meetings",
+    "location": "",
+    "datetime": "Wed, Nov 26, 2025 5 PM – 6 PM",
+    "host_organization": "Young Democratic Socialists of America",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2024/r2_image_upload_4588648_Princeton_YDSA_Logo_91711254.jpg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966043",
+    "name": "PAVE General Meeting",
+    "location": "",
+    "datetime": "Wed, Nov 26, 2025 5 PM – 6:30 PM",
+    "host_organization": "Autonomous Vehicle Engineering, Princeton",
+    "tags": [
+      "Student Organization Event",
+      "Engineering",
+      "STEM"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4587884_logo_without_words_bw_918214428.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967042",
+    "name": "Tiger Investments: Open Education",
+    "location": "",
+    "datetime": "Wed, Nov 26, 2025 7:15 PM – 8:15 PM",
+    "host_organization": "Tiger Investments",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4598172_tigerinvestmentpngFINAL_102122955.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964492",
+    "name": "Lunch & Learn",
+    "location": "",
+    "datetime": "Thu, Nov 27, 2025 12 PM – 1 PM",
+    "host_organization": "Chabad",
+    "tags": [
+      "Learning Cohort"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964240",
+    "name": "Governing Council Meeting",
+    "location": "",
+    "datetime": "Thu, Nov 27, 2025 4:30 PM – 5:30 PM",
+    "host_organization": "Whig-Cliosophic Society, American",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1965933",
+    "name": "Prayer Meeting",
+    "location": "",
+    "datetime": "Thu, Nov 27, 2025 4:30 PM – 5:30 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1963675",
+    "name": "PBC General Meeting",
+    "location": "",
+    "datetime": "Thu, Nov 27, 2025 4:30 PM – 6 PM",
+    "host_organization": "Princeton Blockchain Club",
+    "tags": [
+      "General Event",
+      "Careers & Professional Development",
+      "Digital Technologies",
+      "Financial Literacy",
+      "Innovation/Entrepreneurship"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4587996_PBC_Horizontalremovebgpreviewjpg_9215209.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968338",
+    "name": "Weekly all-team meeting",
+    "location": "",
+    "datetime": "Thu, Nov 27, 2025 4:30 PM – 6 PM",
+    "host_organization": "Princeton Rover Team",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2024/r2_image_upload_4587884_41242782624_97040bdec0_bjpg_929213422.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964553",
+    "name": "Climbing Team Practice!",
+    "location": "",
+    "datetime": "Thu, Nov 27, 2025 4:30 PM – 6:30 PM",
+    "host_organization": "Climbing",
+    "tags": [
+      "Sports Club Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_3993413_IMG_3842_9101169.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966190",
+    "name": "CSA Mahjong Night",
+    "location": "",
+    "datetime": "Thu, Nov 27, 2025 8 PM – 9 PM",
+    "host_organization": "Chinese Students Association",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2279585_csa_coverjpg_11314126.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1962909",
+    "name": "Graduate Student Breakfast",
+    "location": "",
+    "datetime": "Fri, Nov 28, 2025 8 AM – 10 AM",
+    "host_organization": "Graduate Princeton Christian Fellowship",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1961769",
+    "name": "Office Hours for Humanities and Social Sciences Graduate Students (Virtual)",
+    "location": "",
+    "datetime": "Fri, Nov 28, 2025 1 PM – 2 PM",
+    "host_organization": "GradFUTURES",
+    "tags": [
+      "Office Hours",
+      "Careers & Professional Development",
+      "Career Management",
+      "Humanities",
+      "Social Sciences"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4586645_r3_image_upload_4586645_MyPrincetonU_Banner_3_43105555_62615943.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1963596",
+    "name": "PSV IV Meetings",
+    "location": "",
+    "datetime": "Fri, Nov 28, 2025 4:30 PM – 6 PM",
+    "host_organization": "Princeton Student Ventures",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2023/r2_image_upload_2764789_5eee82cc3a2b7b642d3b5713_PSV_logop8001_11614495.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1963910",
+    "name": "Chess Club Weekly Meeting",
+    "location": "",
+    "datetime": "Fri, Nov 28, 2025 7 PM – 9 PM",
+    "host_organization": "Chess Club",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1965951",
+    "name": "Prayer Meeting",
+    "location": "",
+    "datetime": "Sat, Nov 29, 2025 8 AM – 9:30 AM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964804",
+    "name": "Saturday Climbing Team Practice",
+    "location": "",
+    "datetime": "Sat, Nov 29, 2025 11 AM – 1 PM",
+    "host_organization": "Climbing",
+    "tags": [
+      "Sports Club Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_3993413_IMG_3842_910202957.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966990",
+    "name": "E-Club: BlockWarriors (Forge) Weekly Meetings",
+    "location": "",
+    "datetime": "Sat, Nov 29, 2025 1 PM – 3 PM",
+    "host_organization": "E-Club: Forge",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966361",
+    "name": "Sophomore Small Group",
+    "location": "",
+    "datetime": "Sat, Nov 29, 2025 3:30 PM – 4:30 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1960851",
+    "name": "Large Group",
+    "location": "",
+    "datetime": "Sat, Nov 29, 2025 4 PM – 10 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968983",
+    "name": "East Asian Academic Talk Series 1 Collaging Aphasic Histories: Multilingual Taiwanese Popular Music",
+    "location": "",
+    "datetime": "Sat, Nov 29, 2025 4:30 PM – 6:30 PM",
+    "host_organization": "East Asian Cultural Association",
+    "tags": [
+      "Seminar",
+      "Arts",
+      "Global/Intercultural",
+      "Hybrid Event",
+      "Humanities"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4603560_talk1_1110154352.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1959521",
+    "name": "Weekly AMPU Meeting",
+    "location": "",
+    "datetime": "Sat, Nov 29, 2025 6:30 PM – 11:30 PM",
+    "host_organization": "Anime-Manga Princeton",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4588433_AMPUjpg_4192239.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1963281",
+    "name": "Weekly Board Game Night",
+    "location": "",
+    "datetime": "Sat, Nov 29, 2025 7 PM – 9 PM",
+    "host_organization": "Graduate Board Games Club",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4589970_dice_stockimagejpg_82614586.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1954166",
+    "name": "Grad Yoga Sunday Session",
+    "location": "",
+    "datetime": "Sun, Nov 30, 2025 10:10 AM – 12:20 PM",
+    "host_organization": "Grad Yoga at Princeton",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2023/r2_image_upload_2278908_IMG_0657_731224924.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966774",
+    "name": "Formula 1 Watch Party: Qatar GP",
+    "location": "",
+    "datetime": "Sun, Nov 30, 2025 11 AM – 1 PM",
+    "host_organization": "Princeton Racing Electric",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4604332_QatarGrandstandGuide2_929164450.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1962647",
+    "name": "PSE Rehersal",
+    "location": "",
+    "datetime": "Sun, Nov 30, 2025 1:30 PM – 3 PM",
+    "host_organization": "Princeton Saxophone Ensemble",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966471",
+    "name": "ACM NLP Reading Group",
+    "location": "",
+    "datetime": "Sun, Nov 30, 2025 4 PM – 5 PM",
+    "host_organization": "ACM Group, Princeton",
+    "tags": [
+      "Seminar"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2277180_code0jpg_11319754.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968975",
+    "name": "Sinterklaas dinner",
+    "location": "",
+    "datetime": "Sun, Nov 30, 2025 6 PM – 11 PM",
+    "host_organization": "Dutch Student Association Princeton",
+    "tags": [
+      "Special Event"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967531",
+    "name": "Lakeside Advent: Crepe Making",
+    "location": "",
+    "datetime": "Sun, Nov 30, 2025 7 PM – 8 PM",
+    "host_organization": "The Graduate School",
+    "tags": [
+      "General Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_2924040_Copy_of_Copy_of_251105NOV25_GARDEN_THEATRE_1015131326.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1968571",
+    "name": "Empowering Every Learner: Support for Unique Learning Styles: Mondays 10am-12pm",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 10 AM – 12 PM",
+    "host_organization": "Office of Disability Services",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4590722_ODSLogoRGBsm_116164712.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1961849",
+    "name": "Office Hours for Anthropology Graduate Students",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 11 AM – 12 PM",
+    "host_organization": "GradFUTURES",
+    "tags": [
+      "Office Hours",
+      "Careers & Professional Development",
+      "Career Management",
+      "Humanities",
+      "Social Sciences"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4586645_MyPrincetonU_Banner_10_91516118.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1954322",
+    "name": "Christian Union Nova 12:1 Prayer",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 12 PM – 1 PM",
+    "host_organization": "Christian Union Nova",
+    "tags": [
+      "Student Organization Event",
+      "Wellness & Community",
+      "Self-care",
+      "Personal Well-being & Effectiveness"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2023/r2_image_upload_2262090_121_Logo_9593649.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1960777",
+    "name": "Kristin Dykstra | 'Things that Function Like Truth': Translating Contemporary Poetry from Latin America",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 12 PM – 1:20 PM",
+    "host_organization": "Program in Translation and Intercultural Communications",
+    "tags": [
+      "Lecture",
+      "Global/Intercultural",
+      "Communication Skills",
+      "Humanities",
+      "Social Sciences"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_2278411_KDykstra_Bird_2013_Lecture_Image_81810958.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964195",
+    "name": "CLC General Council Meeting",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 4:30 PM – 5:30 PM",
+    "host_organization": "Civic Leadership Council (Pace)",
+    "tags": [
+      "Student Organization Event",
+      "Leadership & Collaboration",
+      "Project Management",
+      "Skill-Building"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4590627_Civic_Leadership_Council_green_color_block_91692656.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1965934",
+    "name": "Prayer Meeting",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 4:30 PM – 5:30 PM",
+    "host_organization": "Manna Christian Fellowship",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1960832",
+    "name": "Guoer Liu | Monopolizing Transparency: Engineering Automated Air Quality Data in China",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 4:30 PM – 6 PM",
+    "host_organization": "Center on Contemporary China",
+    "tags": [
+      "Lecture"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4603890_CCC_251201_Liu_Bannerjpg_1027112045.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1963945",
+    "name": "OA Climbing Wall Open Hours (Monday)",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 4:30 PM – 6:30 PM",
+    "host_organization": "Outdoor Action",
+    "tags": [
+      "Recreation",
+      "Wellness & Community",
+      "Other"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2022/r2_image_upload_2276639_Wall_logojpg_949611.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1967386",
+    "name": "MSA Quran Study",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 5 PM – 6 PM",
+    "host_organization": "Muslim Student Association",
+    "tags": [
+      "Learning Cohort"
+    ],
+    "cover_image": "https://my.princeton.edu/images/groups/professional-02.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1965449",
+    "name": "Information Session: Princeton in Argentina and Princeton in Spain",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 5 PM – 6:30 PM",
+    "host_organization": "Department of Spanish and Portuguese",
+    "tags": [
+      "Meeting"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_3815075_Study_Abroad_2026_11514657.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1966044",
+    "name": "PAVE General Meeting",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 5 PM – 6:30 PM",
+    "host_organization": "Autonomous Vehicle Engineering, Princeton",
+    "tags": [
+      "Student Organization Event",
+      "Engineering",
+      "STEM"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4587884_logo_without_words_bw_918214428.png",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1969162",
+    "name": "Learn: Laser Cutting",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 5 PM – 6:30 PM",
+    "host_organization": "Center on Science and Technology.",
+    "tags": [
+      "Training/Workshop",
+      "Arts",
+      "Digital Technologies",
+      "Skill-Building",
+      "Engineering",
+      "STEM"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_2263924_AdobeStock_296507066_102016468.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1969016",
+    "name": "Campaigning 101",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 6 PM – 8 PM",
+    "host_organization": "Students for Prison Education, Abolition & Reform",
+    "tags": [
+      "Student Organization Event",
+      "Leadership & Collaboration",
+      "Organizational Skills",
+      "Communication Skills"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2267206_spear_cover_photo_118204923.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1962589",
+    "name": "Intro to Tango",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 7 PM – 8:30 PM",
+    "host_organization": "Princeton Tango Club",
+    "tags": [
+      "Student Organization Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4598894_image00020JPG_817233658.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1964790",
+    "name": "Monday Climbing Team Practice!",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 8 PM – 10 PM",
+    "host_organization": "Climbing",
+    "tags": [
+      "Sports Club Event"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2021/r2_image_upload_2278630_IMG_1986JPG_116101242.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
+  },
+  {
+    "id": "event_1962619",
+    "name": "Fundamentals of Tango Social Dancing",
+    "location": "",
+    "datetime": "Mon, Dec 1, 2025 8:30 PM – 10 PM",
+    "host_organization": "Princeton Tango Club",
+    "tags": [
+      "Student Organization Event",
+      "Arts",
+      "Wellness & Community",
+      "Skill-Building"
+    ],
+    "cover_image": "https://my.princeton.edu/upload/princeton/2025/r2_image_upload_4598894_outdoormiloonga_milongerosjpg_817235943.jpeg",
+    "rsvp_count": 0,
+    "source": "my.princeton.edu"
   }
 ]

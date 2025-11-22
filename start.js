@@ -1,3 +1,10 @@
+#!/usr/bin/env node
+
+/**
+ * TigerTime - One-click startup script
+ * Starts the server and opens the app in your browser
+ */
+
 import express from 'express';
 import cors from 'cors';
 import { google } from 'googleapis';
@@ -6,6 +13,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { exec } from 'child_process';
 import { promisify } from 'util';
+import { createServer } from 'http';
+import open from 'open';
 
 const execAsync = promisify(exec);
 const __filename = fileURLToPath(import.meta.url);
@@ -17,6 +26,9 @@ const PORT = process.env.PORT || 3001;
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Serve static HTML file
+app.use(express.static(__dirname));
 
 // In-memory cache for events
 let eventsCache = [];
@@ -258,7 +270,32 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', events: eventsCache.length });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
-  console.log(`Events API: http://localhost:${PORT}/api/events`);
+// Start server
+const server = app.listen(PORT, async () => {
+  console.log('\n╔════════════════════════════════════════════════╗');
+  console.log('║            🎓 TigerTime Started! 🎓            ║');
+  console.log('╚════════════════════════════════════════════════╝\n');
+  console.log(`🚀 Server running on http://localhost:${PORT}`);
+  console.log(`📊 Events API: http://localhost:${PORT}/api/events`);
+  console.log(`🌐 Web App: http://localhost:${PORT}/tigertime.html\n`);
+
+  // Open browser automatically
+  try {
+    console.log('🌐 Opening browser...\n');
+    await open(`http://localhost:${PORT}/tigertime.html`);
+    console.log('✅ Browser opened successfully!\n');
+    console.log('Press Ctrl+C to stop the server\n');
+  } catch (error) {
+    console.error('❌ Could not open browser automatically');
+    console.log(`Please open http://localhost:${PORT}/tigertime.html manually\n`);
+  }
+});
+
+// Graceful shutdown
+process.on('SIGINT', () => {
+  console.log('\n\n👋 Shutting down TigerTime...');
+  server.close(() => {
+    console.log('✅ Server stopped\n');
+    process.exit(0);
+  });
 });

@@ -1,0 +1,45 @@
+[
+  {
+    "name": "_ga_Y1NY3VGST3",
+    "value": "GS2.1.s1763838955$o1$g1$t1763838955$j60$l0$h0",
+    "domain": ".princeton.edu",
+    "path": "/",
+    "expires": 1798398955.271107,
+    "size": 59,
+    "httpOnly": false,
+    "secure": false,
+    "session": false,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.1409179921.1763838955",
+    "domain": ".princeton.edu",
+    "path": "/",
+    "expires": 1798398955.220585,
+    "size": 30,
+    "httpOnly": false,
+    "secure": false,
+    "session": false,
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  },
+  {
+    "name": "CG.SessionID",
+    "value": "30f3uhf1j5t3iu5ncssamfdt-dF4INwMx9G1VSylV%2baGtgF1zMy8%3d",
+    "domain": "my.princeton.edu",
+    "path": "/",
+    "expires": -1,
+    "size": 69,
+    "httpOnly": true,
+    "secure": true,
+    "session": true,
+    "sameSite": "Lax",
+    "priority": "Medium",
+    "sameParty": false,
+    "sourceScheme": "Secure"
+  }
+]

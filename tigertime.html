@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TigerTime - Princeton Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --tiger-orange: #E77D4E;
+            --tiger-orange-light: #F19A6F;
+            --tiger-orange-dark: #D46940;
+            --dark-bg: #0A0A0A;
+            --card-bg: #1A1A1A;
+            --card-border: #2A2A2A;
+            --text-primary: #FFFFFF;
+            --text-secondary: #A0A0A0;
+            --text-muted: #666666;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            min-height: 100vh;
+            position: relative;
+        }
+
+        body.login-page {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        body.events-page {
+            overflow-y: auto;
+        }
+
+        /* Animated background gradient */
+        .bg-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(circle at 20% 30%, rgba(231, 125, 78, 0.08) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(231, 125, 78, 0.06) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Animated orbs */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.15;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        .orb-1 {
+            width: 400px;
+            height: 400px;
+            background: var(--tiger-orange);
+            top: -200px;
+            right: -100px;
+            animation: float 20s ease-in-out infinite;
+        }
+
+        .orb-2 {
+            width: 300px;
+            height: 300px;
+            background: var(--tiger-orange-light);
+            bottom: -150px;
+            left: -80px;
+            animation: float 25s ease-in-out infinite reverse;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            33% { transform: translate(30px, -30px) scale(1.1); }
+            66% { transform: translate(-20px, 20px) scale(0.9); }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            width: 90%;
+            max-width: 440px;
+            animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 48px 40px;
+            backdrop-filter: blur(10px);
+            box-shadow:
+                0 0 0 1px rgba(255, 255, 255, 0.02),
+                0 20px 40px rgba(0, 0, 0, 0.4),
+                0 0 80px rgba(231, 125, 78, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg,
+                transparent 0%,
+                var(--tiger-orange) 50%,
+                transparent 100%);
+            opacity: 0.5;
+        }
+
+        /* Logo and branding */
+        .logo-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .tiger-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 20px;
+            background: linear-gradient(135deg, var(--tiger-orange), var(--tiger-orange-light));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            box-shadow:
+                0 4px 16px rgba(231, 125, 78, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            animation: pulse 3s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); box-shadow: 0 4px 16px rgba(231, 125, 78, 0.3); }
+            50% { transform: scale(1.02); box-shadow: 0 6px 24px rgba(231, 125, 78, 0.4); }
+        }
+
+        .brand-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--text-primary) 0%, var(--tiger-orange-light) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 8px;
+            letter-spacing: -0.02em;
+        }
+
+        .brand-tagline {
+            font-size: 14px;
+            color: var(--text-secondary);
+            font-weight: 400;
+        }
+
+        /* Page views */
+        .page-view {
+            display: none;
+        }
+
+        .page-view.active {
+            display: block;
+        }
+
+        /* Auth states */
+        .auth-state {
+            display: none;
+        }
+
+        .auth-state.active {
+            display: block;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Login content */
+        .welcome-text {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .welcome-text h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .welcome-text p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        /* Buttons */
+        .btn {
+            width: 100%;
+            padding: 16px 24px;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            font-weight: 500;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .btn:hover::before {
+            width: 100%;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--tiger-orange), var(--tiger-orange-light));
+            color: white;
+            box-shadow:
+                0 4px 12px rgba(231, 125, 78, 0.3),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            position: relative;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow:
+                0 6px 20px rgba(231, 125, 78, 0.4),
+                inset 0 1px 0 rgba(255, 255, 255, 0.2);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        .btn-primary:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-primary);
+            border: 1px solid var(--card-border);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: var(--tiger-orange);
+            transform: translateY(-1px);
+        }
+
+        /* Input fields */
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 14px 16px;
+            font-family: 'Inter', sans-serif;
+            font-size: 15px;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--card-border);
+            border-radius: 10px;
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+
+        .input-group input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .input-group input:focus {
+            outline: none;
+            border-color: var(--tiger-orange);
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 0 0 3px rgba(231, 125, 78, 0.1);
+        }
+
+        /* Error message */
+        .error-message {
+            display: none;
+            padding: 12px 16px;
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 8px;
+            color: #FCA5A5;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        .error-message.show {
+            display: block;
+            animation: shake 0.5s ease;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-8px); }
+            75% { transform: translateX(8px); }
+        }
+
+        /* Success message */
+        .success-message {
+            display: none;
+            padding: 12px 16px;
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-radius: 8px;
+            color: #86EFAC;
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        /* Loading state */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .loading.active {
+            display: block;
+        }
+
+        .spinner {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 20px;
+            border: 3px solid var(--card-border);
+            border-top: 3px solid var(--tiger-orange);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            color: var(--text-secondary);
+            font-size: 15px;
+        }
+
+        /* Events page styles */
+        .events-page-container {
+            position: relative;
+            z-index: 1;
+            min-height: 100vh;
+        }
+
+        .events-header {
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--card-border);
+            padding: 20px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            backdrop-filter: blur(10px);
+        }
+
+        .events-header-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .header-logo {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--tiger-orange), var(--tiger-orange-light));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .header-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+
+        .header-right {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .user-badge {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .btn-small {
+            padding: 10px 20px;
+            font-size: 14px;
+            width: auto;
+        }
+
+        .events-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .events-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 24px;
+        }
+
+        .event-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .event-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+            border-color: var(--tiger-orange);
+        }
+
+        .event-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+        }
+
+        .event-content {
+            padding: 24px;
+        }
+
+        .event-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--text-primary);
+            line-height: 1.3;
+        }
+
+        .event-info {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            margin-bottom: 10px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .event-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 16px;
+        }
+
+        .tag {
+            background: rgba(231, 125, 78, 0.1);
+            color: var(--tiger-orange-light);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 80px 20px;
+            color: var(--text-secondary);
+        }
+
+        .empty-state-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 28px;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--tiger-orange);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        footer a:hover {
+            color: var(--tiger-orange-light);
+        }
+
+        /* Icons */
+        .icon {
+            width: 20px;
+            height: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .events-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .events-header-content {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .card {
+                padding: 40px 28px;
+            }
+
+            .brand-name {
+                font-size: 32px;
+            }
+
+            .welcome-text h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body class="login-page">
+    <div class="bg-gradient"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <!-- Login Page View -->
+    <div id="loginView" class="page-view active">
+        <div class="container">
+            <div class="card">
+                <div class="logo-container">
+                    <div class="tiger-icon">🐯</div>
+                    <h1 class="brand-name">TigerTime</h1>
+                    <p class="brand-tagline">Princeton Event Calendar</p>
+                </div>
+
+                <!-- Loading State -->
+                <div class="loading" id="loadingState">
+                    <div class="spinner"></div>
+                    <p class="loading-text" id="loadingText">Loading events...</p>
+                </div>
+
+                <!-- Login State -->
+                <div class="auth-state active" id="loginState">
+                    <div class="welcome-text">
+                        <h2>Sign In with Princeton NetID</h2>
+                        <p>Enter your credentials to view campus events</p>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="netid">Princeton NetID</label>
+                        <input type="text" id="netid" placeholder="Your NetID" autocomplete="username" />
+                    </div>
+
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Your password" autocomplete="current-password" />
+                    </div>
+
+                    <div id="loginError" class="error-message"></div>
+                    <div id="loginSuccess" class="success-message"></div>
+
+                    <button class="btn btn-primary" id="loginBtn" onclick="handleLogin()">
+                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4M10 17l5-5-5-5M13.8 12H3"/>
+                        </svg>
+                        <span>Sign In & Load Events</span>
+                    </button>
+                </div>
+            </div>
+
+            <footer>
+                Made with 🧡 for Princeton students
+            </footer>
+        </div>
+    </div>
+
+    <!-- Events Page View -->
+    <div id="eventsView" class="page-view">
+        <div class="events-page-container">
+            <header class="events-header">
+                <div class="events-header-content">
+                    <div class="header-left">
+                        <div class="header-logo">🐯</div>
+                        <h1 class="header-title">TigerTime</h1>
+                    </div>
+                    <div class="header-right">
+                        <div class="user-badge" id="userBadge">Loading...</div>
+                        <button class="btn btn-primary btn-small" onclick="refreshEvents()">
+                            🔄 Refresh
+                        </button>
+                        <button class="btn btn-secondary btn-small" onclick="logout()">
+                            Sign Out
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <div class="events-container">
+                <div id="eventsGrid" class="events-grid"></div>
+                <div id="emptyState" class="empty-state" style="display: none;">
+                    <div class="empty-state-icon">📅</div>
+                    <h2 style="margin-bottom: 10px;">No Events Found</h2>
+                    <p>Check back later or refresh to load new events</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const BACKEND_URL = 'http://localhost:3001';
+        let currentUser = null;
+        let eventsData = [];
+
+        // Check if already logged in on page load
+        window.addEventListener('DOMContentLoaded', async function() {
+            const storedCreds = getStoredCredentials();
+            if (storedCreds) {
+                currentUser = storedCreds;
+                await loadEventsAndShowPage();
+            }
+        });
+
+        // Handle login with credentials
+        async function handleLogin() {
+            const netid = document.getElementById('netid').value.trim();
+            const password = document.getElementById('password').value;
+            const errorEl = document.getElementById('loginError');
+            const successEl = document.getElementById('loginSuccess');
+            const loginBtn = document.getElementById('loginBtn');
+
+            // Clear previous messages
+            errorEl.classList.remove('show');
+            successEl.classList.remove('show');
+            errorEl.textContent = '';
+            successEl.textContent = '';
+
+            // Validate inputs
+            if (!netid || !password) {
+                showError(errorEl, 'Please enter both NetID and password');
+                return;
+            }
+
+            // Store credentials for session
+            currentUser = { netid, password };
+            storeCredentials(currentUser);
+
+            // Show loading
+            loginBtn.disabled = true;
+            showLoading('Authenticating with Princeton CAS...');
+
+            try {
+                // Call the scraper API with credentials
+                showLoading('Logging into Princeton and scraping events...');
+
+                const response = await fetch(`${BACKEND_URL}/api/scrape`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ netid, password })
+                });
+
+                const data = await response.json();
+
+                if (!response.ok || !data.success) {
+                    throw new Error(data.error || 'Failed to scrape events');
+                }
+
+                // Store the scraped events
+                eventsData = data.events;
+
+                // Check if credentials might be invalid by comparing event counts
+                // or if no personalized content was found
+                const publicEventCount = data.count;
+
+                // Show warning if credentials seem invalid but scraping succeeded
+                // (This happens because the events page is publicly accessible)
+                if (!netid.includes('@') && netid.length < 3) {
+                    showWarning(successEl, `⚠️ Warning: Credentials may be invalid. Showing ${data.count} public events only. Login with real NetID for personalized content.`);
+                } else {
+                    showSuccess(successEl, `Successfully scraped ${data.count} events!`);
+                }
+
+                // Wait a moment to show success message
+                setTimeout(() => {
+                    showEventsPage();
+                }, 1500);
+
+            } catch (error) {
+                console.error('Error:', error);
+                let errorMessage = error.message;
+
+                // Provide helpful error messages
+                if (errorMessage.includes('ECONNREFUSED')) {
+                    errorMessage = 'Server not running. Please start it with: npm run server';
+                } else if (errorMessage.includes('timeout')) {
+                    errorMessage = 'Scraping took too long. This might be due to slow network or incorrect credentials.';
+                } else if (errorMessage.includes('login') || errorMessage.includes('auth')) {
+                    errorMessage = 'Authentication failed. Please check your NetID and password.';
+                }
+
+                showError(errorEl, errorMessage);
+                loginBtn.disabled = false;
+                hideLoading();
+                clearStoredCredentials();
+            }
+        }
+
+        // Load events from backend
+        async function loadEvents() {
+            try {
+                const response = await fetch(`${BACKEND_URL}/api/events`);
+
+                if (!response.ok) {
+                    throw new Error('Server not running or events not found');
+                }
+
+                const data = await response.json();
+
+                if (data.success && data.events) {
+                    eventsData = data.events;
+                    return eventsData;
+                } else {
+                    throw new Error(data.error || 'Failed to load events');
+                }
+            } catch (error) {
+                console.error('Load events error:', error);
+                throw error;
+            }
+        }
+
+        // Load events and show page
+        async function loadEventsAndShowPage() {
+            showLoading('Loading your events...');
+
+            try {
+                await loadEvents();
+                showEventsPage();
+            } catch (error) {
+                console.error('Error loading events:', error);
+                // If can't load events, go back to login
+                logout();
+                const errorEl = document.getElementById('loginError');
+                showError(errorEl, 'Server not available. Please start the server with: npm run server');
+            }
+        }
+
+        // Refresh events
+        async function refreshEvents() {
+            const grid = document.getElementById('eventsGrid');
+            grid.innerHTML = '<div style="text-align: center; padding: 40px; color: var(--text-secondary);">Refreshing events...</div>';
+
+            try {
+                await loadEvents();
+                displayEvents();
+            } catch (error) {
+                grid.innerHTML = '<div style="text-align: center; padding: 40px; color: #FCA5A5;">Failed to refresh. Check server connection.</div>';
+            }
+        }
+
+        // Display events on the page
+        function displayEvents() {
+            const grid = document.getElementById('eventsGrid');
+            const emptyState = document.getElementById('emptyState');
+
+            if (eventsData.length === 0) {
+                grid.style.display = 'none';
+                emptyState.style.display = 'block';
+                return;
+            }
+
+            grid.style.display = 'grid';
+            emptyState.style.display = 'none';
+            grid.innerHTML = '';
+
+            eventsData.forEach(event => {
+                const card = createEventCard(event);
+                grid.appendChild(card);
+            });
+        }
+
+        // Create event card element
+        function createEventCard(event) {
+            const card = document.createElement('div');
+            card.className = 'event-card';
+
+            card.innerHTML = `
+                ${event.cover_image ? `
+                    <img
+                        src="${event.cover_image}"
+                        alt="${event.name || 'Event'}"
+                        class="event-image"
+                        onerror="this.style.display='none'"
+                    >
+                ` : '<div class="event-image"></div>'}
+
+                <div class="event-content">
+                    <h3 class="event-title">${event.name || 'Untitled Event'}</h3>
+
+                    ${event.datetime ? `
+                        <div class="event-info">
+                            <span>📅</span>
+                            <span>${event.datetime}</span>
+                        </div>
+                    ` : ''}
+
+                    ${event.location ? `
+                        <div class="event-info">
+                            <span>📍</span>
+                            <span>${event.location}</span>
+                        </div>
+                    ` : ''}
+
+                    ${event.host_organization ? `
+                        <div class="event-info">
+                            <span>👥</span>
+                            <span>${event.host_organization}</span>
+                        </div>
+                    ` : ''}
+
+                    ${event.tags && event.tags.length > 0 ? `
+                        <div class="event-tags">
+                            ${event.tags.slice(0, 3).map(tag => `<span class="tag">${tag}</span>`).join('')}
+                        </div>
+                    ` : ''}
+                </div>
+            `;
+
+            return card;
+        }
+
+        // Show events page
+        function showEventsPage() {
+            document.body.classList.remove('login-page');
+            document.body.classList.add('events-page');
+            document.getElementById('loginView').classList.remove('active');
+            document.getElementById('eventsView').classList.add('active');
+
+            // Update user badge
+            if (currentUser) {
+                document.getElementById('userBadge').textContent = `${currentUser.netid}@princeton.edu`;
+            }
+
+            // Display events
+            displayEvents();
+            hideLoading();
+        }
+
+        // Logout
+        function logout() {
+            clearStoredCredentials();
+            currentUser = null;
+            eventsData = [];
+
+            document.body.classList.remove('events-page');
+            document.body.classList.add('login-page');
+            document.getElementById('eventsView').classList.remove('active');
+            document.getElementById('loginView').classList.add('active');
+
+            // Clear form
+            document.getElementById('netid').value = '';
+            document.getElementById('password').value = '';
+            document.getElementById('loginError').classList.remove('show');
+            document.getElementById('loginSuccess').classList.remove('show');
+        }
+
+        // UI Helper functions
+        function showLoading(text = 'Loading...') {
+            document.getElementById('loadingText').textContent = text;
+            document.getElementById('loadingState').classList.add('active');
+            document.getElementById('loginState').classList.remove('active');
+        }
+
+        function hideLoading() {
+            document.getElementById('loadingState').classList.remove('active');
+            document.getElementById('loginState').classList.add('active');
+        }
+
+        function showError(errorEl, message) {
+            errorEl.textContent = message;
+            errorEl.classList.add('show');
+        }
+
+        function showSuccess(successEl, message) {
+            successEl.textContent = message;
+            successEl.classList.add('show');
+        }
+
+        function showWarning(successEl, message) {
+            successEl.textContent = message;
+            successEl.classList.add('show');
+            // Style it differently to indicate warning
+            successEl.style.background = 'rgba(251, 191, 36, 0.1)';
+            successEl.style.borderColor = 'rgba(251, 191, 36, 0.3)';
+            successEl.style.color = '#FCD34D';
+        }
+
+        // Storage functions
+        function storeCredentials(creds) {
+            sessionStorage.setItem('tigertime_creds', JSON.stringify(creds));
+        }
+
+        function getStoredCredentials() {
+            const stored = sessionStorage.getItem('tigertime_creds');
+            return stored ? JSON.parse(stored) : null;
+        }
+
+        function clearStoredCredentials() {
+            sessionStorage.removeItem('tigertime_creds');
+        }
+
+        // Allow Enter key to submit
+        document.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && document.getElementById('loginState').classList.contains('active')) {
+                handleLogin();
+            }
+        });
+    </script>
+</body>
+</html>
