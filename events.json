@@ -1,0 +1,177 @@
+[
+  {
+    "id": "event_1732320000_0",
+    "name": "ACM Workshop: Intro to Machine Learning",
+    "location": "Friend Center 101",
+    "datetime": "November 25, 2024 at 6:00 PM",
+    "host_organization": "Princeton ACM",
+    "rsvp_list": [
+      "John Smith",
+      "Sarah Johnson",
+      "Michael Chen",
+      "Emily Davis",
+      "James Wilson"
+    ],
+    "tags": [
+      "Technology",
+      "Workshop",
+      "Machine Learning",
+      "Computer Science"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800",
+    "description": "Join us for an introductory workshop on machine learning fundamentals. We'll cover basic concepts, algorithms, and hands-on coding exercises using Python and scikit-learn. Perfect for beginners!"
+  },
+  {
+    "id": "event_1732406400_1",
+    "name": "Fall Cultural Festival",
+    "location": "Frist Campus Center",
+    "datetime": "November 26, 2024 at 7:30 PM",
+    "host_organization": "International Student Association",
+    "rsvp_list": [
+      "Maria Garcia",
+      "Ahmed Hassan",
+      "Li Wei",
+      "Sophie Martin",
+      "Raj Patel",
+      "Anna Kowalski",
+      "Carlos Rodriguez"
+    ],
+    "tags": [
+      "Cultural",
+      "Social",
+      "Food",
+      "Performance"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800",
+    "description": "Celebrate diversity with performances, food from around the world, and cultural exhibitions. All students welcome to experience the rich tapestry of Princeton's international community."
+  },
+  {
+    "id": "event_1732492800_2",
+    "name": "Career Fair: Tech Industry",
+    "location": "Jadwin Gymnasium",
+    "datetime": "November 27, 2024 at 2:00 PM",
+    "host_organization": "Career Services",
+    "rsvp_list": [
+      "Alex Johnson",
+      "Jessica Lee",
+      "David Kim"
+    ],
+    "tags": [
+      "Career",
+      "Technology",
+      "Networking",
+      "Recruiting"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+    "description": "Meet with recruiters from top tech companies including Google, Microsoft, Amazon, and innovative startups. Bring your resume and be ready to network!"
+  },
+  {
+    "id": "event_1732579200_3",
+    "name": "Thanksgiving Dinner",
+    "location": "Rockefeller College",
+    "datetime": "November 28, 2024 at 6:00 PM",
+    "host_organization": "Residential College Council",
+    "rsvp_list": [
+      "Tom Anderson",
+      "Jennifer Brown",
+      "Kevin O'Brien",
+      "Lisa Martinez",
+      "Robert Taylor",
+      "Michelle Wong",
+      "Daniel Murphy",
+      "Rachel Green",
+      "Christopher Hall",
+      "Amanda White"
+    ],
+    "tags": [
+      "Social",
+      "Food",
+      "Holiday",
+      "Community"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1574672280600-4accfa5b6f98?w=800",
+    "description": "Traditional Thanksgiving feast for students staying on campus. Turkey, stuffing, pumpkin pie, and all the fixings! A great opportunity to celebrate with the Princeton community."
+  },
+  {
+    "id": "event_1732752000_4",
+    "name": "Entrepreneurship Panel Discussion",
+    "location": "McCosh Hall 50",
+    "datetime": "November 30, 2024 at 4:30 PM",
+    "host_organization": "Princeton Entrepreneurship Club",
+    "rsvp_list": [
+      "Brian Park",
+      "Nicole Thompson"
+    ],
+    "tags": [
+      "Entrepreneurship",
+      "Business",
+      "Panel",
+      "Startups"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800",
+    "description": "Hear from successful Princeton alumni entrepreneurs about their startup journeys, lessons learned, and advice for aspiring founders. Q&A session to follow."
+  },
+  {
+    "id": "event_1732838400_5",
+    "name": "Study Break: Finals Prep",
+    "location": "Firestone Library Plaza",
+    "datetime": "December 1, 2024 at 9:00 PM",
+    "host_organization": "Student Government",
+    "rsvp_list": [
+      "Emma Watson",
+      "Oliver Smith",
+      "Sophia Lee",
+      "William Jones",
+      "Isabella Garcia"
+    ],
+    "tags": [
+      "Academic",
+      "Social",
+      "Study",
+      "Wellness"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?w=800",
+    "description": "Take a break from studying with free coffee, snacks, and stress-relief activities. Therapy dogs, meditation corner, and good vibes as we head into finals season."
+  },
+  {
+    "id": "event_1732924800_6",
+    "name": "Guest Lecture: Climate Change Policy",
+    "location": "Robertson Hall",
+    "datetime": "December 2, 2024 at 3:00 PM",
+    "host_organization": "School of Public and International Affairs",
+    "rsvp_list": [
+      "Grace Mitchell"
+    ],
+    "tags": [
+      "Academic",
+      "Lecture",
+      "Environment",
+      "Policy"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1569163139394-de4798aa62b0?w=800",
+    "description": "Distinguished environmental policy expert discusses the latest developments in international climate agreements and their implications for global sustainability."
+  },
+  {
+    "id": "event_1733011200_7",
+    "name": "Winter Concert Series Kickoff",
+    "location": "Richardson Auditorium",
+    "datetime": "December 3, 2024 at 8:00 PM",
+    "host_organization": "Princeton University Orchestra",
+    "rsvp_list": [
+      "Henry Cooper",
+      "Charlotte Anderson",
+      "Lucas Martinez",
+      "Amelia Davis",
+      "Benjamin Wilson",
+      "Mia Thompson"
+    ],
+    "tags": [
+      "Music",
+      "Performance",
+      "Arts",
+      "Classical"
+    ],
+    "cover_image": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=800",
+    "description": "The Princeton University Orchestra presents its winter concert featuring works by Beethoven, Tchaikovsky, and contemporary composers. Free admission for students."
+  }
+]
